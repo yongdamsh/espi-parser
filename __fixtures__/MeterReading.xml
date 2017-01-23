@@ -1,0 +1,13 @@
+<ns3:entry xmlns:espi="http://naesb.org/espi" xmlns:ns3="http://www.w3.org/2005/Atom">
+  <ns3:id>urn:uuid:4234ae39-fb6d-48ca-8856-ac9f41fb3d34</ns3:id>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading" rel="up"/>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1" rel="self"/>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock" rel="related"/>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/ReadingType/1" rel="related"/>
+  <ns3:title>Monthly Electricity Consumption</ns3:title>
+  <ns3:content>
+    <espi:MeterReading/>
+  </ns3:content>
+  <ns3:published>2013-09-19T04:00:00Z</ns3:published>
+  <ns3:updated>2013-09-19T04:00:00Z</ns3:updated>
+</ns3:entry>

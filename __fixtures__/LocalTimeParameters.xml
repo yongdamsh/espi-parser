@@ -1,0 +1,16 @@
+<ns3:entry xmlns:espi="http://naesb.org/espi" xmlns:ns3="http://www.w3.org/2005/Atom">
+  <ns3:id>urn:uuid:e30ce77d-ec22-4da5-83c2-991ba34c97d6</ns3:id>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/LocalTimeParameters" rel="up"/>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/LocalTimeParameters/1" rel="self"/>
+  <ns3:title>DST For North America</ns3:title>
+  <ns3:content>
+    <espi:LocalTimeParameters>
+      <espi:dstEndRule>B40E2000</espi:dstEndRule>
+      <espi:dstOffset>3600</espi:dstOffset>
+      <espi:dstStartRule>360E2000</espi:dstStartRule>
+      <espi:tzOffset>-18000</espi:tzOffset>
+    </espi:LocalTimeParameters>
+  </ns3:content>
+  <ns3:published>2013-09-19T04:00:00Z</ns3:published>
+  <ns3:updated>2013-09-19T04:00:00Z</ns3:updated>
+</ns3:entry>

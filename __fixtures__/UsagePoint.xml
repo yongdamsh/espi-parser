@@ -1,0 +1,24 @@
+<ns3:entry xmlns:espi="http://naesb.org/espi" xmlns:ns3="http://www.w3.org/2005/Atom">
+  <ns3:id>urn:uuid:af6e8b03-0299-467e-972a-a883ecdcc575</ns3:id>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/ApplicationInformation" rel="up"/>
+  <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/ApplicationInformation/1" rel="self"/>
+  <ns3:title>GreenButtonData.org  DataCustodian Application</ns3:title>
+  <ns3:content>
+    <espi:ApplicationInformation>
+      <espi:dataCustodianApplicationStatus></espi:dataCustodianApplicationStatus>
+      <espi:thirdPartyNotifyUri>https://services.greenbuttondata.org/ThirdParty/espi/1_1/Notification</espi:thirdPartyNotifyUri>
+      <espi:dataCustodianBulkRequestURI></espi:dataCustodianBulkRequestURI>
+      <espi:dataCustodianResourceEndpoint>https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource</espi:dataCustodianResourceEndpoint>
+      <espi:thirdPartyScopeSelectionScreenURI>https://services.greenbuttondata.org/ThirdParty/Subscription/ScopeSelection</espi:thirdPartyScopeSelectionScreenURI>
+      <espi:client_secret>secret</espi:client_secret>
+      <espi:redirect_uri>https://services.greenbuttondata.org/ThirdParty/espi/1_1/OAuthCallBack</espi:redirect_uri>
+      <espi:client_id>third_party</espi:client_id>
+      <espi:scope>FB=4_5_15;IntervalDuration=900;BlockDuration=monthly;HistoryLength=13</espi:scope>
+      <espi:scope>FB=4_5_15;IntervalDuration=3600;BlockDuration=monthly;HistoryLength=13</espi:scope>
+      <espi:dataCustodianId>data_custodian</espi:dataCustodianId>
+      <espi:thirdPartyApplicationName>Third Party (localhost)</espi:thirdPartyApplicationName>
+    </espi:ApplicationInformation>
+  </ns3:content>
+  <ns3:published>2014-01-02T10:00:00Z</ns3:published>
+  <ns3:updated>2014-01-02T10:00:00Z</ns3:updated>
+</ns3:entry>

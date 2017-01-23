@@ -1,0 +1,17 @@
+{
+  "name": "espi-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/yongdamsh/xml-to-common-json.git",
+    "type": "git"
+  },
+  "author": "Lee Sanghyeon <yongdamsh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "xml-parser": "^1.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
