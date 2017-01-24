@@ -12,7 +12,6 @@ const fixtures = {
   LocalTimeParameters: fs.readFileSync(path.join(__dirname, '../__fixtures__/LocalTimeParameters.xml'), 'utf8'),
   ElectricPowerUsageSummary: fs.readFileSync(path.join(__dirname, '../__fixtures__/ElectricPowerUsageSummary.xml'), 'utf8'),
   ElectricPowerQualitySummary: fs.readFileSync(path.join(__dirname, '../__fixtures__/ElectricPowerQualitySummary.xml'), 'utf8'),
-  MultipleTags: fs.readFileSync(path.join(__dirname, '../__fixtures__/MultipleTags.xml'), 'utf8'),
 };
 
 test('parse XML to JSON', () => {
@@ -44,7 +43,7 @@ test('handling CDATA included xml', () => {
 });
 
 test('collect duplicate tags in array', () => {
-  const json = espiParser(fixtures.MultipleTags);
+  const json = espiParser(fixtures.IntervalBlock);
 
-  expect(json.feed.entries).toBeInstanceOf(Array);
+  expect(json.entry.content.IntervalBlock.IntervalReadings).toBeInstanceOf(Array);
 });
