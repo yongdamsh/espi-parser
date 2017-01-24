@@ -56,7 +56,7 @@ function mapXMLToJSON(xml) {
 
   const xmlObj = xmlParser(trimmedXml);
   return {
-    [xmlObj.root.name]: normalizeChildren(xmlObj.root.children),
+    [removeNamespace(xmlObj.root.name)]: normalizeChildren(xmlObj.root.children),
   };
 }
 
