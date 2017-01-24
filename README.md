@@ -48,230 +48,6 @@ const exampleXml = `
         </espi:timePeriod>
         <espi:value>21021</espi:value>
       </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357275600</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357362000</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357448400</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357534800</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357621200</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357707600</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357794000</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357880400</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1357966800</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358053200</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358139600</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358226000</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358312400</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358398800</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358485200</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358571600</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358658000</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358744400</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358830800</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1358917200</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359003600</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359090000</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359176400</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>203931</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359262800</espi:start>
-        </espi:timePeriod>
-        <espi:value>25662</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359349200</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359435600</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359522000</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
-      <espi:IntervalReading>
-        <espi:cost>256347</espi:cost>
-        <espi:timePeriod>
-          <espi:duration>86400</espi:duration>
-          <espi:start>1359608400</espi:start>
-        </espi:timePeriod>
-        <espi:value>21021</espi:value>
-      </espi:IntervalReading>
     </espi:IntervalBlock>
   </ns3:content>
   <ns3:published>2013-02-01T05:00:00Z</ns3:published>
@@ -287,111 +63,57 @@ console.log(util.inspect(json, { depth: Infinity }));
 
 It will be print:
 ```js
-{ entry:
-       { id: 'urn:uuid:e0383570-16b1-4ab9-8642-fdb7e89660db',
-         links:
-          [ { href: 'https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock',
-              rel: 'up' },
-            { href: 'https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock/1',
-              rel: 'self' } ],
-         title: {},
-         content:
-          { IntervalBlock:
-             { interval: { duration: '2678400', start: '1357016400' },
-               IntervalReadings:
-                [ { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357016400' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357102800' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357189200' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357275600' },
-                    value: '21021' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1357362000' },
-                    value: '25662' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1357448400' },
-                    value: '25662' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357534800' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357621200' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357707600' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357794000' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1357880400' },
-                    value: '21021' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1357966800' },
-                    value: '25662' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1358053200' },
-                    value: '25662' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358139600' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358226000' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358312400' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358398800' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358485200' },
-                    value: '21021' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1358571600' },
-                    value: '25662' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1358658000' },
-                    value: '25662' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358744400' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358830800' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1358917200' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359003600' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359090000' },
-                    value: '21021' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1359176400' },
-                    value: '25662' },
-                  { cost: '203931',
-                    timePeriod: { duration: '86400', start: '1359262800' },
-                    value: '25662' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359349200' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359435600' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359522000' },
-                    value: '21021' },
-                  { cost: '256347',
-                    timePeriod: { duration: '86400', start: '1359608400' },
-                    value: '21021' } ] } },
-         published: '2013-02-01T05:00:00Z',
-         updated: '2013-02-01T05:00:00Z' } }
+{
+  entry: {
+    id: 'urn:uuid:e0383570-16b1-4ab9-8642-fdb7e89660db',
+    links: [
+      {
+        href: 'https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock',
+        rel: 'up'
+      },
+      {
+        href: 'https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock/1',
+        rel: 'self'
+      }
+    ],
+    title: {},
+    content: {
+      IntervalBlock: {
+        interval: {
+          duration: '2678400',
+          start: '1357016400'
+        },
+        IntervalReadings:
+        [
+          {
+            cost: '256347',
+            timePeriod: {
+              duration: '86400',
+              start: '1357016400'
+            },
+            value: '21021'
+          },
+          {
+            cost: '256347',
+            timePeriod: {
+              duration: '86400',
+              start: '1357102800'
+            },
+            value: '21021'
+          },
+          {
+            cost: '256347',
+            timePeriod: {
+              duration: '86400',
+              start: '1357189200'
+            },
+            value: '21021'
+          }
+        ]
+      }
+    },
+    published: '2013-02-01T05:00:00Z',
+    updated: '2013-02-01T05:00:00Z'
+  } 
+}
 ```
