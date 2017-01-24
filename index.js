@@ -5,15 +5,36 @@ function removeNamespace(key) {
   return key.replace(/\w+:/, '');
 }
 
-function hasDuplicatedKeys(arr = []) {
-  return arr.length > 1 && arr.every((item, index) => {
-    if (index === 0) {
-      return true;
-    }
-
-    return item.name === arr[index - 1].name;
-  });
-}
+// function normalizeChildren(arr = []) {
+//   const obj = {};
+//   const keys = arr.map(item => item.name);
+//
+//   keys.forEach((key, index) => {
+//     const numOfMatchingKeys = keys.filter(k => k === key).length;
+//     const currentItem = arr[index];
+//
+//     if (numOfMatchingKeys > 1) {
+//       const pluralKeyName = pluralize(removeNamespace(key));
+//
+//       obj[pluralKeyName] = obj[pluralKeyName] || [];
+//
+//       if (currentItem.children.length) {
+//         obj[pluralKeyName].push(normalizeChildren(currentItem.children));
+//       } else {
+//         obj[pluralKeyName].push(currentItem.content || Object.assign({}, currentItem.attributes));
+//       }
+//     } else {
+//
+//       if (currentItem.children.length) {
+//         obj[removeNamespace(currentItem.name)] = normalizeChildren(currentItem.children);
+//       } else {
+//         obj[removeNamespace(currentItem.name)] = currentItem.content || Object.assign({}, currentItem.attributes);
+//       }
+//     }
+//   });
+//
+//   return obj;
+// }
 
 function normalizeChildren(arr = []) {
   const obj = {};
@@ -22,24 +43,17 @@ function normalizeChildren(arr = []) {
   keys.forEach((key, index) => {
     const numOfMatchingKeys = keys.filter(k => k === key).length;
     const currentItem = arr[index];
+    const keyName = numOfMatchingKeys > 1 ? pluralize(removeNamespace(key)) : removeNamespace(key);
+    const contentForNonChildren = currentItem.content || Object.assign({}, currentItem.attributes);
+    const hasChildren = Boolean(currentItem.children.length);
 
     if (numOfMatchingKeys > 1) {
-      const pluralKeyName = pluralize(removeNamespace(key));
-
-      obj[pluralKeyName] = obj[pluralKeyName] || [];
-
-      if (currentItem.children.length) {
-        obj[pluralKeyName].push(normalizeChildren(currentItem.children));
-      } else {
-        obj[pluralKeyName].push(currentItem.content || Object.assign({}, currentItem.attributes));
-      }
+      obj[keyName] = obj[keyName] || [];
+      obj[keyName].push(
+        hasChildren ? normalizeChildren(currentItem.children) : contentForNonChildren
+      );
     } else {
-
-      if (currentItem.children.length) {
-        obj[removeNamespace(currentItem.name)] = normalizeChildren(currentItem.children);
-      } else {
-        obj[removeNamespace(currentItem.name)] = currentItem.content || Object.assign({}, currentItem.attributes);
-      }
+      obj[keyName] = hasChildren ? normalizeChildren(currentItem.children) : contentForNonChildren;
     }
   });
 
