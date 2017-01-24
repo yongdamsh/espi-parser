@@ -5,37 +5,6 @@ function removeNamespace(key) {
   return key.replace(/\w+:/, '');
 }
 
-// function normalizeChildren(arr = []) {
-//   const obj = {};
-//   const keys = arr.map(item => item.name);
-//
-//   keys.forEach((key, index) => {
-//     const numOfMatchingKeys = keys.filter(k => k === key).length;
-//     const currentItem = arr[index];
-//
-//     if (numOfMatchingKeys > 1) {
-//       const pluralKeyName = pluralize(removeNamespace(key));
-//
-//       obj[pluralKeyName] = obj[pluralKeyName] || [];
-//
-//       if (currentItem.children.length) {
-//         obj[pluralKeyName].push(normalizeChildren(currentItem.children));
-//       } else {
-//         obj[pluralKeyName].push(currentItem.content || Object.assign({}, currentItem.attributes));
-//       }
-//     } else {
-//
-//       if (currentItem.children.length) {
-//         obj[removeNamespace(currentItem.name)] = normalizeChildren(currentItem.children);
-//       } else {
-//         obj[removeNamespace(currentItem.name)] = currentItem.content || Object.assign({}, currentItem.attributes);
-//       }
-//     }
-//   });
-//
-//   return obj;
-// }
-
 function normalizeChildren(arr = []) {
   const obj = {};
   const keys = arr.map(item => item.name);
