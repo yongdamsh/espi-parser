@@ -43,36 +43,6 @@ function normalizeChildren(arr = []) {
     }
   });
 
-  // console.log('arr', arr);
-  // arr.forEach((item) => {
-  //   if (!item.children.length) {
-  //     obj[removeNamespace(item.name)] = item.content || Object.assign({}, item.attributes);
-  //     return;
-  //   }
-  //   // console.log('item', item);
-  //
-  //   const keys = item.children.map(child => child.name);
-  //   console.log('keys', keys);
-  //   keys.forEach((key, index) => {
-  //     const numOfMatchingKeys = keys.filter(k => k === key).length;
-  //
-  //     if (numOfMatchingKeys > 1) {
-  //       console.log(item);
-  //       const pluralKeyName = pluralize(removeNamespace(key));
-  //       console.log(pluralKeyName);
-  //       obj[pluralKeyName] = obj[pluralKeyName] || [];
-  //
-  //       if (!item.children[index].children.length) {
-  //         obj[pluralKeyName] = item.content || Object.assign({}, item.attributes);
-  //       } else {
-  //         obj[pluralKeyName].push(normalizeChildren(item.children[index].children));
-  //       }
-  //     } else {
-  //       obj[removeNamespace(item.name)] = normalizeChildren(item.children);
-  //     }
-  //   });
-  // });
-
   return obj;
 }
 
