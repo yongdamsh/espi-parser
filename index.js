@@ -34,11 +34,25 @@ function normalizeChildren(arr = []) {
   return obj;
 }
 
+function preprocess(xml = '') {
+  const cdataRegex = /<!\[CDATA\[|\]\]>/g;
+  return xml.replace(cdataRegex, '');
+}
+
 function mapXMLToJSON(xml) {
-  const xmlObj = xmlParser(xml);
+  const trimmedXml = preprocess(xml);
+
+  const xmlObj = xmlParser(trimmedXml);
   return {
     [xmlObj.root.name]: normalizeChildren(xmlObj.root.children),
   };
 }
 
+function getRawJSON(xml) {
+  return xmlParser(xml);
+}
+
 module.exports = mapXMLToJSON;
+module.exports.test = {
+  getRawJSON,
+};
