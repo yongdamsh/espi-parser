@@ -17,7 +17,7 @@ const exampleXml = `
   <ns3:id>urn:uuid:e0383570-16b1-4ab9-8642-fdb7e89660db</ns3:id>
   <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock" rel="up"/>
   <ns3:link href="https://services.greenbuttondata.org/DataCustodian/espi/1_1/resource/Subscription/1/UsagePoint/1/MeterReading/1/IntervalBlock/1" rel="self"/>
-  <ns3:title></ns3:title>
+  <ns3:title><![CDATA[Generated AMI Data File for Enertalk]]></ns3:title>
   <ns3:content>
     <espi:IntervalBlock>
       <espi:interval>
@@ -76,7 +76,7 @@ It will be print:
         rel: 'self'
       }
     ],
-    title: {},
+    title: 'Generated AMI Data File for Enertalk',
     content: {
       IntervalBlock: {
         interval: {
@@ -114,6 +114,6 @@ It will be print:
     },
     published: '2013-02-01T05:00:00Z',
     updated: '2013-02-01T05:00:00Z'
-  } 
+  }
 }
 ```
