@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://naesb.org/espi espi.xsd">
+  <id>urn:uuid:0f30576c-a6c0-4aae-9889-91e3466d18ff</id>
+  <title><![CDATA[SDG&amp;E Generated AMI Data File for Enertalk]]></title>
+  <author>
+    <name>Meter Data Service (MDS)</name>
+  </author>
+  <updated>2017-01-04T02:41:28Z</updated>
+  <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ThirdParty/12314/Batch" rel="self" />
+  <entry>
+    <id>urn:uuid:95a91734-8228-5691-af0c-66d7719da8e8</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/LocalTimeParameters/01" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/LocalTimeParameters" rel="up" />
+    <title>Pacific Standard Time</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <LocalTimeParameters xmlns="http://naesb.org/espi">
+        <dstEndRule>B40E2000</dstEndRule>
+        <dstOffset>3600</dstOffset>
+        <dstStartRule>360E2000</dstStartRule>
+        <tzOffset>-28800</tzOffset>
+      </LocalTimeParameters>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:5dc14db8-d27c-5c94-a2cb-2c3e7fd0c756</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0701" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType" rel="up" />
+    <title>ReadingType for Data Scenario 01</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <ReadingType xmlns="http://naesb.org/espi">
+        <accumulationBehaviour>4</accumulationBehaviour>
+        <commodity>1</commodity>
+        <currency>840</currency>
+        <dataQualifier>12</dataQualifier>
+        <flowDirection>1</flowDirection>
+        <intervalLength>3600</intervalLength>
+        <kind>12</kind>
+        <phase>0</phase>
+        <powerOfTenMultiplier>0</powerOfTenMultiplier>
+        <timeAttribute>0</timeAttribute>
+        <uom>72</uom>
+      </ReadingType>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:87cb3861-2cc4-55f1-9c4a-a5f6b153d08e</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0702" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType" rel="up" />
+    <title>ReadingType for Data Scenario 02</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <ReadingType xmlns="http://naesb.org/espi">
+        <accumulationBehaviour>4</accumulationBehaviour>
+        <commodity>1</commodity>
+        <currency>840</currency>
+        <dataQualifier>12</dataQualifier>
+        <flowDirection>19</flowDirection>
+        <intervalLength>3600</intervalLength>
+        <kind>12</kind>
+        <phase>0</phase>
+        <powerOfTenMultiplier>0</powerOfTenMultiplier>
+        <timeAttribute>0</timeAttribute>
+        <uom>72</uom>
+      </ReadingType>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:bf82d624-939b-5024-bd3a-adb4593d35e7</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0203" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType" rel="up" />
+    <title>ReadingType for Data Scenario 03</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <ReadingType xmlns="http://naesb.org/espi">
+        <accumulationBehaviour>4</accumulationBehaviour>
+        <commodity>1</commodity>
+        <currency>840</currency>
+        <dataQualifier>12</dataQualifier>
+        <flowDirection>1</flowDirection>
+        <intervalLength>900</intervalLength>
+        <kind>12</kind>
+        <phase>0</phase>
+        <powerOfTenMultiplier>0</powerOfTenMultiplier>
+        <timeAttribute>0</timeAttribute>
+        <uom>72</uom>
+      </ReadingType>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:fcaf222a-ad56-5030-b162-657bb42252e3</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0204" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType" rel="up" />
+    <title>ReadingType for Data Scenario 04</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <ReadingType xmlns="http://naesb.org/espi">
+        <accumulationBehaviour>4</accumulationBehaviour>
+        <commodity>1</commodity>
+        <currency>840</currency>
+        <dataQualifier>12</dataQualifier>
+        <flowDirection>19</flowDirection>
+        <intervalLength>900</intervalLength>
+        <kind>12</kind>
+        <phase>0</phase>
+        <powerOfTenMultiplier>0</powerOfTenMultiplier>
+        <timeAttribute>0</timeAttribute>
+        <uom>72</uom>
+      </ReadingType>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:d3cd7719-bb2d-5758-8b0e-4912d79aa363</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0405" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType" rel="up" />
+    <title>ReadingType for Data Scenario 05</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <ReadingType xmlns="http://naesb.org/espi">
+        <accumulationBehaviour>4</accumulationBehaviour>
+        <commodity>7</commodity>
+        <currency>840</currency>
+        <dataQualifier>12</dataQualifier>
+        <flowDirection>1</flowDirection>
+        <intervalLength>86400</intervalLength>
+        <kind>12</kind>
+        <phase>0</phase>
+        <powerOfTenMultiplier>-3</powerOfTenMultiplier>
+        <timeAttribute>0</timeAttribute>
+        <uom>169</uom>
+      </ReadingType>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:95030c01-545a-494d-beda-3026ff552254</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint" rel="up" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading" rel="related" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/LocalTimeParameters/01" rel="related" />
+    <title>Usages Point Block for -17290</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <UsagePoint xmlns="http://naesb.org/espi">
+        <ServiceCategory>
+          <kind>0</kind>
+        </ServiceCategory>
+      </UsagePoint>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:1ef15a07-53a8-5785-b343-39033b18a884</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading/01" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading" rel="up" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading/01/IntervalBlock" rel="related" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/ReadingType/0701" rel="related" />
+    <title>MeterReading Entry - Hourly Electricity Consumption for Usage Point - 17290</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <MeterReading xmlns="http://naesb.org/espi" />
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+  <entry>
+    <id>urn:uuid:b61df07c-e534-5837-8766-165be480c6e3</id>
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading/01/IntervalBlock/1" rel="self" />
+    <link href="https://mds.sempra.com/DataCustodian/espi/1_1/resource/RetailCustomer/17290/UsagePoint/20159/MeterReading/01/IntervalBlock" rel="up" />
+    <title>Interval Block for Usage Point -17290</title>
+    <author>
+      <name>Meter Data Service (MDS)</name>
+    </author>
+    <content>
+      <IntervalBlock xmlns="http://naesb.org/espi">
+        <interval>
+          <duration>86400</duration>
+          <start>1482998400</start>
+        </interval>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1482998400</start>
+          </timePeriod>
+          <value>55</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483002000</start>
+          </timePeriod>
+          <value>55</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483005600</start>
+          </timePeriod>
+          <value>120</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483009200</start>
+          </timePeriod>
+          <value>50</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483012800</start>
+          </timePeriod>
+          <value>55</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483016400</start>
+          </timePeriod>
+          <value>110</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483020000</start>
+          </timePeriod>
+          <value>1080</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483023600</start>
+          </timePeriod>
+          <value>1450</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483027200</start>
+          </timePeriod>
+          <value>1620</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483030800</start>
+          </timePeriod>
+          <value>1595</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483034400</start>
+          </timePeriod>
+          <value>370</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483038000</start>
+          </timePeriod>
+          <value>115</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483041600</start>
+          </timePeriod>
+          <value>120</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483045200</start>
+          </timePeriod>
+          <value>550</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483048800</start>
+          </timePeriod>
+          <value>465</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483052400</start>
+          </timePeriod>
+          <value>250</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483056000</start>
+          </timePeriod>
+          <value>70</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483059600</start>
+          </timePeriod>
+          <value>230</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483063200</start>
+          </timePeriod>
+          <value>295</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483066800</start>
+          </timePeriod>
+          <value>305</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483070400</start>
+          </timePeriod>
+          <value>240</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483074000</start>
+          </timePeriod>
+          <value>185</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483077600</start>
+          </timePeriod>
+          <value>100</value>
+        </IntervalReading>
+        <IntervalReading>
+          <ReadingQuality>
+            <quality>0</quality>
+          </ReadingQuality>
+          <timePeriod>
+            <duration>3600</duration>
+            <start>1483081200</start>
+          </timePeriod>
+          <value>65</value>
+        </IntervalReading>
+      </IntervalBlock>
+    </content>
+    <published>2017-01-04T02:41:28Z</published>
+    <updated>2017-01-04T02:41:28Z</updated>
+  </entry>
+</feed>

@@ -12,6 +12,7 @@ const fixtures = {
   LocalTimeParameters: fs.readFileSync(path.join(__dirname, '../__fixtures__/LocalTimeParameters.xml'), 'utf8'),
   ElectricPowerUsageSummary: fs.readFileSync(path.join(__dirname, '../__fixtures__/ElectricPowerUsageSummary.xml'), 'utf8'),
   ElectricPowerQualitySummary: fs.readFileSync(path.join(__dirname, '../__fixtures__/ElectricPowerQualitySummary.xml'), 'utf8'),
+  MultipleTags: fs.readFileSync(path.join(__dirname, '../__fixtures__/MultipleTags.xml'), 'utf8'),
 };
 
 test('parse XML to JSON', () => {
@@ -40,4 +41,10 @@ test('handling CDATA included xml', () => {
 
   expect(json.feed.title).toBe('SDG&E Generated AMI Data File for Enertalk');
   expect(json.feed.author.name).toBe('Meter Data Service (MDS)');
+});
+
+test('collect duplicate tags in array', () => {
+  const json = espiParser(fixtures.MultipleTags);
+
+  expect(json.feed.entries).toBeInstanceOf(Array);
 });
