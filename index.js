@@ -30,14 +30,22 @@ function normalizeChildren(arr = []) {
 }
 
 function preprocess(xml = '') {
+  const xmlDeclareTagRegex = /^(<\?xml|<\? xml)(.*)>/;
   const cdataRegex = /<!\[CDATA\[|\]\]>/g;
-  return xml.replace(cdataRegex, '');
+  return xml
+    .replace(xmlDeclareTagRegex, '')
+    .replace(cdataRegex, '');
 }
 
 function mapXMLToJSON(xml) {
   const trimmedXml = preprocess(xml);
 
   const xmlObj = xmlParser(trimmedXml);
+
+  if (!xmlObj.root) {
+    return null;
+  }
+
   return {
     [removeNamespace(xmlObj.root.name)]: normalizeChildren(xmlObj.root.children),
   };
