@@ -47,3 +47,11 @@ test('collect duplicate tags in array', () => {
 
   expect(json.entry.content.IntervalBlock.IntervalReadings).toBeInstanceOf(Array);
 });
+
+test('remove xml declare tag', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://naesb.org/espi espi.xsd"><id>urn:uuid:0f30576c-a6c0-4aae-9889-91e3466d18ff</id><title>SDG&E Generated AMI Data File for Enertalk</title><author><name>Meter Data Service (MDS)</name></author></feed>`;
+  const json = espiParser(xml);
+  console.log(json);
+  expect(typeof json.feed === 'object').toBeTruthy();
+});
