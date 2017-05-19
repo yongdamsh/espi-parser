@@ -30,7 +30,7 @@ function normalizeChildren(arr = []) {
 }
 
 function preprocess(xml = '') {
-  const xmlDeclareTagRegex = /^(<\?xml|<\? xml)(.*)>/;
+  const xmlDeclareTagRegex = /^(<\?xml|<\? xml).*?>/;
   const cdataRegex = /<!\[CDATA\[|\]\]>/g;
   return xml
     .replace(xmlDeclareTagRegex, '')
